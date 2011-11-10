@@ -14,3 +14,7 @@ endif
 if filereadable(expand("~/.gvimrc.after"))
   source ~/.gvimrc.after
 endif
+
+if filereadable(expand("~/.vim/gvimrc.after"))
+  source ~/.vim/gvimrc.after
+endif

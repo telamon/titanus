@@ -1,0 +1,10 @@
+" Tony's Settings
+
+" Rebind Command-T to Ctrl-L
+map <C-l> :CommandT<CR>
+imap <C-l> <ESC>:CommandT<CR>
+" Ctrl+S save behaviour
+nmap <C-s> :w<CR>
+imap <C-s> <ESC>:w<CR>
+" Kill window plugin
+nmap <C-W>c <Plug>Kwbd

@@ -1,0 +1,9 @@
+" Tony's Settings
+color zmrok
+set guifont=Ubuntu\ Mono\ 12
+set guioptions-=T
+map <C-c> "+y<CR>
+nmap <C-v> "+p<CR>
+imap <C-v> <ESC>"+p<CR>i
+set lines=30 columns=123
+
