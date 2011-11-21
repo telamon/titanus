@@ -1,5 +1,5 @@
 " Tony's Settings
-color autumn
+color github
 set guifont=Ubuntu\ Mono\ 12
 set guioptions-=T
 map <C-c> "+y<CR>

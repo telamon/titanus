@@ -1,5 +1,10 @@
 " Tony's Settings
 
+" Alias ä to Leader
+map ä <leader>
+" Alias Ctrl+ö as ESC
+imap <C-ö> <ESC>
+map <C-ö> <ESC>
 " Rebind Command-T to Ctrl-L
 map <C-l> :CommandT<CR>
 imap <C-l> <ESC>:CommandT<CR>
